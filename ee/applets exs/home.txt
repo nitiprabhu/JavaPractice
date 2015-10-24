@@ -1,0 +1,15 @@
+import java.awt;
+impoert java.applet;
+//applet code=home.class width=400 height=200></applet>
+public class home extends Aapplet
+{
+public void paint(Graphics g)
+{
+g.setColor(Color.pink)
+
+g.drawRect(40,40,80,80);
+g.drawRinc(80,10,40,40);
+g.drawLine(80,10,120,40);
+g.drawRect(70,80,20,40);
+}
+}
